@@ -1,0 +1,110 @@
+#BigViewAboutUs-Section2 {
+    height: 900px;
+    background-color: #2c2c2c;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.BigViewAboutUs-Section2-Content-Container {
+    position: relative;
+}
+
+.BigViewAboutUs-Section2-Background {
+    width: 500px;
+    height: 483.44px;
+    position: absolute;
+    left: 100px;
+    top: 257px;
+}
+
+.BigViewAboutUs-Section2-Title {
+    position: absolute;
+    width: 699px;
+    height: 193px;
+    left: 660px;
+    top: 151px;
+
+    font-family: poppins-700;
+    font-size: 69px;
+    line-height: 100px;
+
+    color: #ffffff;
+}
+
+.BigViewAboutUs-Section2-Title > span {
+    font-size: 90px;
+}
+
+.BigViewAboutUs-Section2-Desc {
+    position: absolute;
+    width: 603px;
+    height: 120px;
+    left: 660px;
+    top: 405px;
+
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #ffffff;
+}
+
+.BigViewAboutUs-Section2-List-Container {
+    position: relative;
+    width: 604px;
+    height: 70px;
+    left: 660px;
+    top: 555px;
+}
+
+.BigViewAboutUs-Section2-List-Container > .col-1 > img {
+    width: 24.06px;
+    height: 24px;
+}
+
+.BigViewAboutUs-Section2-List-Container > .col-11 > h1 {
+    width: 136px;
+    height: 30px;
+
+    font-family: poppins-500;
+    font-size: 36px;
+    line-height: 30px;
+
+    color: #f2f2f2;
+}
+
+.BigViewAboutUs-Section2-List-Container > .col-11 > p {
+    width: 560px;
+    height: 30px;
+
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #ffffff;
+}
+
+.BigViewAboutUs-Section2-List-Container2 {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    #BigViewAboutUs-Section2 {
+        margin-left: -110px;
+    }
+    .BigViewAboutUs-Section2-Content-Container {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

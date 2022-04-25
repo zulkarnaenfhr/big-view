@@ -1,0 +1,85 @@
+#BigViewAboutUs-Section3 {
+    height: 891px;
+    width: 100vw;
+    position: relative;
+}
+
+.BigViewAboutUs-Section3-Content-Container {
+    position: absolute;
+    width: 1290px;
+    height: 600px;
+    left: 120px;
+    top: 150px;
+}
+
+.BigViewAboutUs-Section3-Title {
+    position: absolute;
+    width: 516px;
+    height: 100px;
+    left: 0px;
+    top: 63px;
+
+    font-family: poppins-700;
+    font-size: 90px;
+    line-height: 100px;
+    color: #2c2c2c;
+}
+
+.BigViewAboutUs-Section3-Background {
+    position: absolute;
+    width: 601.05px;
+    height: 576.99px;
+    left: 664px;
+    top: 12px;
+}
+
+.BigViewAboutUs-Section3-List-Container {
+    width: 604px;
+    height: 33px;
+}
+
+.BigViewAboutUs-Section3-List-Container > .col-1 > img {
+    width: 24px;
+    height: 24px;
+}
+
+.BigViewAboutUs-Section3-List-Container > .col-11 > p {
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.BigViewAboutUs-Section3-List-Container1 {
+    margin-top: 232px;
+}
+
+.BigViewAboutUs-Section3-List-Container2 {
+    margin-top: 52px;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigViewAboutUs-Section3-Content-Container {
+        left: 80px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigViewAboutUs-Section3-Content-Container {
+        transform: scale(0.9);
+        left: 20px;
+    }
+    .BigViewAboutUs-Section3-Background {
+        left: 604px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

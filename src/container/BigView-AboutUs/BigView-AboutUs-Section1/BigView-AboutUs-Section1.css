@@ -1,0 +1,93 @@
+#BigViewAboutUs-Section1 {
+    height: 1033px;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.BigViewAboutUs-Section1-Content-Container {
+    position: absolute;
+    width: 1240px;
+    height: 683px;
+    left: 100px;
+    top: 200px;
+}
+
+.BigViewAboutUs-Section1-Background {
+    position: absolute;
+    width: 550px;
+    height: 558.84px;
+    left: 690px;
+    top: 46px;
+}
+
+.BigViewAboutUs-Section1-Title {
+    position: absolute;
+    width: 415px;
+    height: 100px;
+    left: 0px;
+    top: 11px;
+
+    font-family: poppins-700;
+    font-size: 90px;
+    line-height: 100px;
+    /* identical to box height, or 111% */
+
+    /* Big View Main */
+
+    color: #2c2c2c;
+}
+
+.BigViewAboutUs-Section1-Desc1 {
+    position: absolute;
+    width: 604px;
+    height: 150px;
+    left: 0px;
+    top: 171px;
+
+    font-family: poppins-300;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.BigViewAboutUs-Section1-Desc1 > span {
+    font-family: poppins-700;
+}
+
+.BigViewAboutUs-Section1-Desc2 {
+    position: absolute;
+    width: 604px;
+    height: 162px;
+    left: 0px;
+    top: 384px;
+
+    font-family: poppins-300;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.BigViewAboutUs-Section1-Desc2 > span {
+    font-family: poppins-700;
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigViewAboutUs-Section1-Content-Container {
+        transform: scale(0.95);
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

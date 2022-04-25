@@ -1,0 +1,133 @@
+#BigViewFAQ-Section1 {
+    min-height: 739px;
+    margin-bottom: 30px;
+}
+
+.BigViewFAQ-Section1-Title {
+    height: 75px;
+
+    font-family: poppins-800;
+    font-size: 50px;
+    line-height: 75px;
+
+    text-align: center;
+
+    color: #2c2c2c;
+
+    padding-top: 160px;
+}
+
+.BigViewFAQ-Section1-Content-Container {
+    margin-top: 90px;
+    padding-left: 340px;
+    padding-right: 340px;
+}
+
+.BigView-FAQ-Section1-Collapse-Container {
+    width: 100vw;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #009ffd;
+    color: #009ffd;
+}
+
+.BigView-FAQ-Section1-Collapse-Container > button {
+    height: 75px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #009ffd;
+    font-size: 27px;
+    font-family: nunitoSans-700;
+    letter-spacing: 0.04em;
+    text-align: left;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.divCollapse {
+    margin-left: 34px;
+    margin-right: 34px;
+    height: calc(auto + 34px);
+}
+
+.divCollapse-Container {
+    width: 90%;
+    font-family: nunitoSans-600;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.005em;
+}
+
+.divCollapse-Container > p > span {
+    font-family: nunitoSans-900;
+}
+
+.BigView-FAQ-Section1-Q2-Container {
+    margin-top: -20px;
+}
+
+.BigView-FAQ-Section1-Q2 {
+    font-family: poppins-400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.BigView-FAQ-Section1-Q2-Row2 {
+    margin-top: -17px;
+}
+
+.BigView-FAQ-Section1-Q2-Row21 {
+    margin-top: -5px;
+}
+
+.BigView-FAQ-Section1-Q2 > .td2 {
+    position: relative;
+    top: 20px;
+}
+
+.BigView-FAQ-Section1-Q2 > .td21 {
+    position: relative;
+    top: 8px;
+}
+
+.BigView-FAQ-Section1-Q2 > td > p > span {
+    font-family: poppins-700;
+}
+
+.BigView-FAQ-Section1-VectorSilang {
+    width: 16px;
+    height: 16px;
+}
+
+.BigView-FAQ-Section1-VectorSilangRotate {
+    width: 16px;
+    height: 16px;
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigViewFAQ-Section1-Content-Container {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}
