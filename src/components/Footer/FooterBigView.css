@@ -1,0 +1,12 @@
+#SPL-LandingPage-FooterBigView {
+    height: 100px;
+    background-color: #515252;
+}
+
+#SPL-LandingPage-FooterBigView > p {
+    padding-top: 46px;
+    text-align: center;
+    font-family: poppins-400;
+    font-size: 16px;
+    color: white;
+}
