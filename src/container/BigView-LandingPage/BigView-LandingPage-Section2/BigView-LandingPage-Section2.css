@@ -1,0 +1,74 @@
+#BigViewLandingPage-Section2 {
+    width: 1238px;
+    height: 225px;
+    background: #ffffff;
+    box-shadow: 0px 25px 25px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    border: 1px solid transparent;
+    z-index: 2;
+    margin-top: -113px;
+}
+
+.BigViewLandingPage-Section2-Title {
+    text-align: center;
+    font-family: poppins-400;
+    font-size: 23px;
+    line-height: 36px;
+    margin-top: 40px;
+}
+
+.BigViewLandingPage-Section2-Title > span {
+    color: #009ffd;
+}
+
+.BigViewLandingPage-Section2-Logo-Container {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.BigViewLandingPage-Section2-Logo-BUMN {
+    width: 249.2px;
+    height: 70px;
+}
+
+.BigViewLandingPage-Section2-Logo-Telkom {
+    width: 116.35px;
+    height: 70px;
+    margin-left: 60px;
+}
+
+.BigViewLandingPage-Section2-Logo-Wikimedia {
+    width: 137.42px;
+    height: 70px;
+    margin-left: 60px;
+}
+
+.BigViewLandingPage-Section2-Logo-Infomedia {
+    width: 134.13px;
+    height: 70px;
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 1440px) {
+    #BigViewLandingPage-Section2 {
+        transform: scale(0.98);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    #BigViewLandingPage-Section2 {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

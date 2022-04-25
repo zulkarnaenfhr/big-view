@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./CardBigViewLandingpageSection3.css";
+import "./CardBigViewLandingPageSection3.css";
 import styled from "styled-components";
 
 const CardLandingPageSection3Vector = styled.img`

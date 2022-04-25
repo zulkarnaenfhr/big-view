@@ -1,0 +1,47 @@
+#BigViewLandingPage-Section3 {
+    height: 958px;
+    margin-top: -112px;
+    padding-top: 112px;
+}
+
+.BigViewLandingPage-Section3-Title {
+    text-align: center;
+    font-family: poppins-700;
+    line-height: 70px;
+    font-size: 50px;
+    color: #2c2c2c;
+    margin-top: 122px;
+}
+
+.BigViewLandingPage-Section3-Card-Container {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.BigViewLandingPage-Section3-Card-Container {
+    margin-top: 65px;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigViewLandingPage-Section3-Card-Container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigViewLandingPage-Section3-Card-Container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

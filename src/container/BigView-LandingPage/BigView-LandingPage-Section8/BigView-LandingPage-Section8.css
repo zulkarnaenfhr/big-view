@@ -1,0 +1,227 @@
+#BigViewLandingPage-Section8 {
+    height: 730px;
+    width: 100vw;
+}
+
+.BigViewLandingPage-Section8-Title {
+    margin-top: 114px;
+    font-family: poppins-800;
+    font-size: 50px;
+    line-height: 75px;
+    color: #2c2c2c;
+    text-align: center;
+}
+
+.BigViewLandingPage-Section8-Card-Container {
+    display: flex;
+    margin-top: 70px;
+}
+
+.BigViewLandingPage-Section8-Card {
+    width: 325px;
+    height: 420px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-right: 100px;
+}
+
+.BigViewLandingPage-Section8-Card-Arrow {
+    width: 54px;
+    height: 37px;
+}
+
+.BigViewLandingPage-Section8-Card1 {
+    margin-left: 145px;
+}
+
+.BigViewLandingPage-Section8-Card-Arrow1 {
+    position: relative;
+    right: 63px;
+    top: 184px;
+}
+
+.BigViewLandingPage-Section8-Card2 {
+    margin-left: -22px;
+}
+
+.BigViewLandingPage-Section8-Card-Arrow2 {
+    position: relative;
+    right: 63px;
+    top: 184px;
+}
+
+.BigViewLandingPage-Section8-Card3 {
+    margin-left: -20px;
+}
+
+.BigViewLandingPage-Section8-Card1-Content-Container {
+    margin-left: 35px;
+}
+
+.BigViewLandingPage-Section8-Card1-Vector1 {
+    width: 75px;
+    height: 67.64px;
+    margin-top: 53px;
+}
+
+.BigViewLandingPage-Section8-Card-Title {
+    font-family: poppins-700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 8px;
+
+    color: #000000;
+}
+
+.BigViewLandingPage-Section8-Card-Desc {
+    height: 24px;
+
+    font-family: poppins-400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -15px;
+
+    color: #000000;
+}
+
+.BigViewLandingPage-Section8-Card1-Row2 {
+    margin-top: 42px;
+}
+
+.BigViewLandingPage-Section8-Card1-Vector2 {
+    width: 80px;
+    height: 80px;
+}
+
+.BigViewLandingPage-Section8-Card2-Content-Container {
+    margin-left: 31px;
+}
+
+.BigViewLandingPage-Section8-Card2-Vector1 {
+    width: 91px;
+    height: 71.3px;
+    margin-top: 57px;
+}
+
+.BigViewLandingPage-Section8-Card2-Row2 {
+    margin-top: 56px;
+    margin-left: 5px;
+}
+
+.BigViewLandingPage-Section8-Card2-Vector2 {
+    width: 71.64px;
+    height: 72.18px;
+}
+
+.BigViewLandingPage-Section8-Card2-Arrow {
+    position: relative;
+    top: 22px;
+    left: 20px;
+}
+
+.BigViewLandingPage-Section8-Card2-Vector3 {
+    width: 85.69px;
+    height: 75px;
+    position: relative;
+    left: 39px;
+    bottom: 2px;
+}
+
+.BigViewLandingPage-Section8-Card2-Row3 {
+    display: flex;
+}
+
+.BigViewLandingPage-Section8-Card2-Title2 {
+    width: 140px;
+    height: 60px;
+}
+
+.BigViewLandingPage-Section8-Card2-Title3 {
+    width: 110px;
+    height: 60px;
+    margin-left: 25px;
+}
+
+.BigViewLandingPage-Section8-Card3-Vector1 {
+    width: 147.56px;
+    height: 69.6px;
+    margin-left: 88.4px;
+    margin-top: 89.7px;
+}
+
+.BigViewLandingPage-Section8-Card3-Title {
+    margin-top: 23px;
+    text-align: center;
+}
+
+.BigViewLandingPage-Section8-Card3-Vector2 {
+    margin-top: -15px;
+    height: 67.5px;
+    width: 190px;
+    margin-left: 61.5px;
+}
+
+.BigViewLandingPage-Section8-Card3-Row2 {
+    display: flex;
+    margin-top: 18px;
+}
+
+.BigViewLandingPage-Section9-Card3-Desc1 {
+    width: 73px;
+    height: 48px;
+    margin-left: 50px;
+}
+
+.BigViewLandingPage-Section9-Card3-Desc2 {
+    width: 55px;
+    height: 48px;
+    margin-left: 102px;
+}
+
+.BigViewLandingPage-Section8-Card-Button {
+    width: 305px;
+    height: 40px;
+
+    background: #009ffd;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 17px;
+
+    font-family: poppins-700;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.BigViewLandingPage-Section8-Car3-Button {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigViewLandingPage-Section8-Card1 {
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigViewLandingPage-Section8-Card-Container {
+        transform: scale(0.95);
+    }
+    .BigViewLandingPage-Section8-Card1 {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

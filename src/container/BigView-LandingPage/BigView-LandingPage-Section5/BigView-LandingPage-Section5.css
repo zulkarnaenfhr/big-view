@@ -1,0 +1,111 @@
+#BigViewLandingPage-Section5 {
+    height: 850px;
+}
+
+.BigViewLandingPage-Section5-Title {
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 70px;
+    width: 450px;
+    height: 140px;
+    margin-left: 142px;
+    margin-top: 140px;
+}
+
+.BigViewLandingPage-Section5-Card-Side {
+    width: 300px;
+    height: 355.26px;
+    background: #ffffff;
+    border: 2.37333px solid rgba(71, 71, 71, 0.1);
+    box-sizing: border-box;
+    border-radius: 7.91111px;
+    transition: all 0.4s ease-in-out;
+}
+
+.BigViewLandingPage-Section5-Card-Side > img {
+    width: 115px;
+    height: 115px;
+    margin-left: 31.56px;
+    margin-top: 31.56px;
+}
+
+.BigViewLandingPage-Section5-Card-Side > h4 {
+    font-family: poppins-700;
+    font-size: 18px;
+    margin-top: 27.4px;
+    margin-left: 31.56px;
+}
+
+.BigViewLandingPage-Section5-Card-Side > p {
+    font-family: poppins-400;
+    font-size: 14px;
+    margin-top: 7.4px;
+    padding-left: 31.56px;
+    padding-right: 31.56px;
+}
+
+.BigViewLandingPage-Section5-Carousel-Container {
+    margin-top: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.BigViewLandingPage-Section5-Card {
+    width: 300px;
+    height: 355.26px;
+    background: #ffffff;
+    border: 2.37333px solid rgba(71, 71, 71, 0.1);
+    box-sizing: border-box;
+    border-radius: 7.91111px;
+    transition: all 0.4s ease-in-out;
+}
+
+/* square buttons */
+.rec.rec-arrow {
+    border-radius: 50%;
+    background-color: white;
+    color: #009ffd;
+    border: 3px solid #009ffd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* round buttons on hover */
+.rec.rec-arrow:focus:enabled {
+    border-radius: 50%;
+    background-color: white;
+    color: #009ffd;
+    border: 3px solid #009ffd;
+}
+
+.rec.rec-arrow-left > a {
+    margin-top: -100px;
+}
+
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled {
+    background-color: #009ffd;
+    border: 3px solid #009ffd;
+    color: white;
+}
+
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+/* disable default outline on focused items */
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

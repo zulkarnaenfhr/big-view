@@ -1,0 +1,108 @@
+#BigViewLandingPage-Section7 {
+    height: 852px;
+}
+
+.BigViewLandingPage-Section7-Background {
+    position: absolute;
+    width: 540px;
+    height: 458.17px;
+    left: 848px;
+    margin-top: 218px;
+}
+
+.BigViewLandingPage-Section7-Text-Container {
+    position: relative;
+    left: 148px;
+    top: 177px;
+}
+
+.BigViewLandingPage-Section7-Title {
+    width: 403px;
+    height: 210px;
+
+    font-family: poppins-700;
+    font-size: 50px;
+    line-height: 70px;
+
+    color: #000000;
+}
+
+.BigViewLandingPage-Section7-Desc-Container {
+    margin-top: 63px;
+}
+
+.BigViewLandingPage-Section7-Desc {
+    width: 668px;
+    height: 18px;
+
+    font-family: poppins-700;
+    font-size: 18px;
+    line-height: 100%;
+
+    color: #000000;
+}
+
+.BigViewLandingPage-Section7-Desc > span {
+    margin-left: 53px;
+}
+
+.BigViewLandingPage-Section7-Desc-Checklist {
+    width: 24px;
+    height: 24px;
+    margin-right: 29px;
+}
+
+.BigViewLandingPage-Section7-Desc-Second-Row {
+    margin-top: 31px;
+}
+
+.BigViewLandingPage-Section7-Desc4 {
+    line-height: 231%;
+    margin-top: 0px;
+    position: relative;
+    top: 4px;
+}
+
+.BigViewLandingPage-Section7-Button {
+    width: 150px;
+    height: 60px;
+    background-color: #009ffd;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    font-family: poppins-700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-top: 105px;
+    transition: all 0.4s ease-in-out;
+}
+
+.BigViewLandingPage-Section7-Button:hover {
+    background-color: white;
+    color: #009ffd;
+    border: 1px solid #009ffd;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigViewLandingPage-Section7-Background {
+        left: 780px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1300px) {
+    .BigViewLandingPage-Section7-Text-Container {
+        left: 100px;
+    }
+    .BigViewLandingPage-Section7-Background {
+        left: 680px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 1100px) {
+}

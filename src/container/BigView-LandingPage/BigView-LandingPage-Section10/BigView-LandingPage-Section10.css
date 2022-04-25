@@ -1,0 +1,61 @@
+#BigViewLandingPage-Section10 {
+    height: 575px;
+    width: 100vw;
+}
+
+.BigViewLandingPage-Section10-Title {
+    font-family: poppins-800;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #2c2c2c;
+    padding-top: 150px;
+}
+
+.BigViewLandingPage-Section10-Button-Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.BigViewLandingPage-Section10-Button-FreeTrial {
+    width: 150px;
+    height: 60px;
+    background: #009ffd;
+    border-radius: 30px;
+    color: white;
+    border: 1px solid transparent;
+    font-family: poppins-700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    margin-right: 10px;
+}
+
+.BigViewLandingPage-Section10-Button-FreeTrial:hover {
+    background: white;
+    color: #009ffd;
+    border: 1px solid #009ffd;
+}
+
+.BigViewLandingPage-Section10-Button-ContactUs {
+    width: 150px;
+    height: 60px;
+    background: white;
+    color: #009ffd;
+    border: 1px solid #009ffd;
+    border-radius: 30px;
+    font-family: poppins-700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.BigViewLandingPage-Section10-Button-ContactUs:hover {
+    background: #009ffd;
+    color: white;
+    border: 1px solid transparent;
+}
