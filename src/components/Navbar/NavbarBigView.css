@@ -209,7 +209,35 @@
 }
 
 @media screen and (max-width: 1150px) {
+    #navbarBigViewScroll {
+        width: 95vw;
+    }
+    #navbarBigView {
+        width: 95vw;
+    }
+    .bigViewNavbarMenu-container {
+        margin-left: 50px;
+    }
+    .bigViewButton-Container {
+        margin-left: 50px;
+        transform: scale(0.9);
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .bigViewNavbarMenu-container {
+        margin-left: 20px;
+    }
+    .bigViewNavbarMenuPartnership {
+        margin-left: 30px;
+    }
+    .bigViewMenuResources {
+        margin-left: 30px;
+    }
+    .bigViewMenuCompany {
+        margin-left: 30px;
+    }
+    .bigViewButton-Container {
+        margin-left: 30px;
+    }
 }
