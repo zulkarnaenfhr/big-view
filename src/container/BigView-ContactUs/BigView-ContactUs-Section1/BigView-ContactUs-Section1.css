@@ -104,7 +104,7 @@
 .BigView-ContactUs-Section1-Form-Container > button {
     width: 150px;
     height: 60px;
-    background: #009FFD;
+    background: #009ffd;
     border-radius: 30px;
     font-size: 16px;
     font-family: poppins-700;
@@ -114,8 +114,47 @@
     margin-left: 3px;
 }
 
+@media screen and (max-width: 1440px) {
+    #BigView-ContactUs-Section1 {
+        padding-left: 110px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #BigView-ContactUs-Section1 {
+        padding-left: 70px;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     #BigView-ContactUs-Section1 {
-        padding-left: 40px;
+        padding-left: 70px;
+    }
+    .BigView-ContactUs-Section1-Content-Container {
+        margin-top: 40px;
+    }
+    .BigView-ContactUs-Section1-Form-Container {
+        transform: scale(0.85);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    #BigView-ContactUs-Section1 {
+        padding-left: 30px;
+    }
+    .BigView-ContactUs-Section1-Form-Container {
+        transform: scale(0.8);
+        position: relative;
+        top: 70px;
+        right: 70px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .BigView-ContactUs-Section1-Form-Container {
+        transform: scale(0.7);
+        position: relative;
+        top: 30px;
+        right: 70px;
     }
 }

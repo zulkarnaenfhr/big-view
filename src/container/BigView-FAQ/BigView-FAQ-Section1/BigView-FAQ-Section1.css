@@ -127,7 +127,15 @@
 }
 
 @media screen and (max-width: 1150px) {
+    .BigViewFAQ-Section1-Content-Container {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigViewFAQ-Section1-Content-Container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
