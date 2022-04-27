@@ -94,5 +94,24 @@
     }
 }
 
+@media screen and (max-width: 1400px) {
+}
+
 @media screen and (max-width: 1300px) {
+}
+
+@media screen and (max-width: 1150px) {
+    #BeforeFooterBigView {
+        padding-left: 50px;
+    }
+    .BeforeFooterBigView-Container {
+        transform: scale(0.95);
+    }
+    .BeforeFooterBigView-Content-Left {
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
 }

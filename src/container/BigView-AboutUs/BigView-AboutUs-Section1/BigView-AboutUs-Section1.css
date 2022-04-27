@@ -1,14 +1,18 @@
 #BigViewAboutUs-Section1 {
     height: 1033px;
-    padding-left: 42px;
-    padding-right: 42px;
+}
+
+.BigViewAboutUs-Section1-Parent-Container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .BigViewAboutUs-Section1-Content-Container {
-    position: absolute;
     width: 1240px;
     height: 683px;
-    left: 100px;
+    position: relative;
     top: 200px;
 }
 
@@ -26,14 +30,9 @@
     height: 100px;
     left: 0px;
     top: 11px;
-
     font-family: poppins-700;
     font-size: 90px;
     line-height: 100px;
-    /* identical to box height, or 111% */
-
-    /* Big View Main */
-
     color: #2c2c2c;
 }
 
@@ -80,14 +79,24 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .BigViewAboutUs-Section1-Content-Container {
-        transform: scale(0.95);
-        left: 30px;
+    .BigViewAboutUs-Section1-Parent-Container {
+        transform: scale(0.9);
     }
 }
 
 @media screen and (max-width: 1150px) {
+    .BigViewAboutUs-Section1-Parent-Container {
+        transform: scale(0.8);
+        margin-left: -50px;
+    }
+    .BigViewAboutUs-Section1-Background {
+        left: 650px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigViewAboutUs-Section1-Parent-Container {
+        transform: scale(0.75);
+        margin-left: -80px;
+    }
 }

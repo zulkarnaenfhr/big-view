@@ -4,12 +4,19 @@
     position: relative;
 }
 
+.BigViewAboutUs-Section3-Parent-Container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    position: relative;
+    height: 891px;
+    align-items: center;
+}
+
 .BigViewAboutUs-Section3-Content-Container {
     position: absolute;
     width: 1290px;
     height: 600px;
-    left: 120px;
-    top: 150px;
 }
 
 .BigViewAboutUs-Section3-Title {
@@ -66,20 +73,31 @@
 }
 
 @media screen and (max-width: 1400px) {
-}
-
-@media screen and (max-width: 1300px) {
-    .BigViewAboutUs-Section3-Content-Container {
-        transform: scale(0.9);
-        left: 20px;
-    }
     .BigViewAboutUs-Section3-Background {
         left: 604px;
     }
 }
 
+@media screen and (max-width: 1300px) {
+    .BigViewAboutUs-Section3-Content-Container {
+        transform: scale(0.9);
+        margin-left: -80px;
+    }
+    .BigViewAboutUs-Section3-Background {
+        left: 630px;
+    }
+}
+
 @media screen and (max-width: 1150px) {
+    .BigViewAboutUs-Section3-Content-Container {
+        transform: scale(0.8);
+        margin-left: -140px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigViewAboutUs-Section3-Content-Container {
+        transform: scale(0.75);
+        margin-left: -180px;
+    }
 }
