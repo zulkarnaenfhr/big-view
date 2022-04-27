@@ -15,6 +15,8 @@
 .BigViewLandingPage-Section8-Card-Container {
     display: flex;
     margin-top: 70px;
+    width: 100vw;
+    justify-content: center;
 }
 
 .BigViewLandingPage-Section8-Card {
@@ -23,7 +25,6 @@
     background: #ffffff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    margin-right: 100px;
 }
 
 .BigViewLandingPage-Section8-Card-Arrow {
@@ -32,27 +33,25 @@
 }
 
 .BigViewLandingPage-Section8-Card1 {
-    margin-left: 145px;
+    margin-left: 0px;
 }
 
 .BigViewLandingPage-Section8-Card-Arrow1 {
-    position: relative;
-    right: 63px;
-    top: 184px;
+    margin-top: 184px;
+    margin-left: 41px;
 }
 
 .BigViewLandingPage-Section8-Card2 {
-    margin-left: -22px;
+    margin-left: 41px;
 }
 
 .BigViewLandingPage-Section8-Card-Arrow2 {
-    position: relative;
-    right: 63px;
-    top: 184px;
+    margin-top: 184px;
+    margin-left: 41px;
 }
 
 .BigViewLandingPage-Section8-Card3 {
-    margin-left: -20px;
+    margin-left: 41px;
 }
 
 .BigViewLandingPage-Section8-Card1-Content-Container {
@@ -76,12 +75,10 @@
 
 .BigViewLandingPage-Section8-Card-Desc {
     height: 24px;
-
     font-family: poppins-400;
     font-size: 16px;
     line-height: 24px;
     margin-top: -15px;
-
     color: #000000;
 }
 
@@ -203,25 +200,61 @@
 }
 
 @media screen and (max-width: 1440px) {
-    .BigViewLandingPage-Section8-Card1 {
-        margin-left: 110px;
-    }
 }
 
 @media screen and (max-width: 1400px) {
 }
 
 @media screen and (max-width: 1300px) {
-    .BigViewLandingPage-Section8-Card-Container {
-        transform: scale(0.95);
+    .BigViewLandingPage-Section8-Card {
+        transform: scale(0.9);
     }
-    .BigViewLandingPage-Section8-Card1 {
-        margin-left: 40px;
+    .BigViewLandingPage-Section8-Card-Arrow1 {
+        margin-left: 15px;
+    }
+    .BigViewLandingPage-Section8-Card2 {
+        margin-left: 15px;
+    }
+    .BigViewLandingPage-Section8-Card-Arrow2 {
+        margin-left: 15px;
+    }
+    .BigViewLandingPage-Section8-Card3 {
+        margin-left: 15px;
     }
 }
 
 @media screen and (max-width: 1150px) {
+    .BigViewLandingPage-Section8-Card {
+        transform: scale(0.8);
+    }
+    .BigViewLandingPage-Section8-Card-Arrow1 {
+        margin-left: -10px;
+    }
+    .BigViewLandingPage-Section8-Card2 {
+        margin-left: -10px;
+    }
+    .BigViewLandingPage-Section8-Card-Arrow2 {
+        margin-left: -10px;
+    }
+    .BigViewLandingPage-Section8-Card3 {
+        margin-left: -10px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigViewLandingPage-Section8-Card {
+        transform: scale(0.75);
+    }
+    .BigViewLandingPage-Section8-Card-Arrow1 {
+        margin-left: -20px;
+    }
+    .BigViewLandingPage-Section8-Card2 {
+        margin-left: -20px;
+    }
+    .BigViewLandingPage-Section8-Card-Arrow2 {
+        margin-left: -20px;
+    }
+    .BigViewLandingPage-Section8-Card3 {
+        margin-left: -20px;
+    }
 }

@@ -90,11 +90,17 @@
 }
 
 @media screen and (max-width: 1400px) {
+    .BigViewLandingPage-Section7-Text-Container {
+        left: 110px;
+    }
+    .BigViewLandingPage-Section7-Background {
+        left: 730px;
+    }
 }
 
 @media screen and (max-width: 1300px) {
     .BigViewLandingPage-Section7-Text-Container {
-        left: 100px;
+        left: 80px;
     }
     .BigViewLandingPage-Section7-Background {
         left: 680px;
@@ -102,7 +108,34 @@
 }
 
 @media screen and (max-width: 1150px) {
+    .BigViewLandingPage-Section7-Text-Container {
+        left: 80px;
+    }
+    .BigViewLandingPage-Section7-Title {
+        font-size: 40px;
+    }
+    .BigViewLandingPage-Section7-Desc {
+        transform: scale(0.9);
+        width: 540px;
+    }
+    .BigViewLandingPage-Section7-Background {
+        left: 600px;
+        width: calc(0.85 * 540px);
+        height: calc(0.85 * 458.17px);
+    }
+    .BigViewLandingPage-Section7-Desc-Container {
+        margin-left: -30px;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigViewLandingPage-Section7-Text-Container {
+        left: 60px;
+    }
+    .BigViewLandingPage-Section7-Background {
+        left: 550px;
+        width: calc(0.8 * 540px);
+        height: calc(0.8 * 458.17px);
+    }
 }

@@ -83,7 +83,25 @@
 }
 
 @media screen and (max-width: 1150px) {
+    .BigViewLandingPage-Section4-Background {
+        transform: scale(0.8);
+    }
+    .BigViewLandingPage-Section4-Background-Container {
+        margin-left: 0px;
+    }
+    .BigViewLandingPage-Section4-Text-Container {
+        padding-left: 550px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
+    .BigViewLandingPage-Section4-Background {
+        transform: scale(0.7);
+    }
+    .BigViewLandingPage-Section4-Background-Container {
+        margin-left: -30px;
+    }
+    .BigViewLandingPage-Section4-Text-Container {
+        padding-left: 470px;
+    }
 }
