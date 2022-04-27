@@ -35,10 +35,12 @@ class BigviewFaqSection1 extends Component {
         return (
             <div id="BigViewFAQ-Section1">
                 <div>
-                    <h1 className="BigViewFAQ-Section1-Title">Frequently Asked Question (FAQ)</h1>
+                    <h1 className="BigViewFAQ-Section1-Title" data-aos="fade-up" data-aos-delay="0">
+                        Frequently Asked Question (FAQ)
+                    </h1>
                 </div>
                 <div className="BigViewFAQ-Section1-Content-Container">
-                    <div className="row">
+                    <div className="row" data-aos="fade-right" data-aos-delay="100">
                         <div className="BigView-FAQ-Section1-Collapse-Container">
                             <button onClick={this.handleFAQClick} type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1" name="faq1">
                                 <div className="row">
@@ -59,6 +61,8 @@ class BigviewFaqSection1 extends Component {
                         </div>
                     </div>
                     <div
+                        data-aos="fade-left"
+                        data-aos-delay="200"
                         className="row"
                         style={{
                             marginTop: "15px",
@@ -135,6 +139,8 @@ class BigviewFaqSection1 extends Component {
                         </div>
                     </div>
                     <div
+                        data-aos="fade-right"
+                        data-aos-delay="300"
                         className="row"
                         style={{
                             marginTop: "15px",
@@ -155,6 +161,8 @@ class BigviewFaqSection1 extends Component {
                         </div>
                     </div>
                     <div
+                        data-aos="fade-left"
+                        data-aos-delay="400"
                         className="row"
                         style={{
                             marginTop: "15px",

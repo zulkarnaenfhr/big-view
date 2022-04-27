@@ -31,8 +31,10 @@ class BigviewLandingpageSection5 extends Component {
     render() {
         return (
             <div id="BigViewLandingPage-Section5">
-                <h1 className="BigViewLandingPage-Section5-Title">Introducing our special features</h1>
-                <div className="BigViewLandingPage-Section5-Carousel-Container">
+                <h1 className="BigViewLandingPage-Section5-Title" data-aos="fade-up" data-aos-delay="0">
+                    Introducing our special features
+                </h1>
+                <div className="BigViewLandingPage-Section5-Carousel-Container" data-aos="fade-up" data-aos-delay="0">
                     <Carousel
                         pagination={false}
                         enableAutoPlay

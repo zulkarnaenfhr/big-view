@@ -6,12 +6,12 @@ class BigviewLandingpageSection7 extends Component {
     render() {
         return (
             <div id="BigViewLandingPage-Section7">
-                <img data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section7-Background" src={require("../../../src/Big-View/BigView-LandingPage/Section7-Background.png")} alt="" />
+                <img data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="0" className="BigViewLandingPage-Section7-Background" src={require("../../../src/Big-View/BigView-LandingPage/Section7-Background.png")} alt="" />
                 <div data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section7-Text-Container">
-                    <h1 data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section7-Title">
+                    <h1 data-aos="fade-left" data-aos-delay="0" className="BigViewLandingPage-Section7-Title">
                         The Reason why you should choose us
                     </h1>
-                    <div data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section7-Desc-Container">
+                    <div data-aos="fade-left" data-aos-offset="200" data-aos-delay="0" className="BigViewLandingPage-Section7-Desc-Container">
                         <p className="BigViewLandingPage-Section7-Desc">
                             <td>
                                 <img className="BigViewLandingPage-Section7-Desc-Checklist" src={require("../../../src/Big-View/Checklist Big View.png")} alt="" />
@@ -50,7 +50,7 @@ class BigviewLandingpageSection7 extends Component {
                             pathname: `/big-view/aboutus`,
                         }}
                     >
-                        <button data-aos="fade-up" data-aos-delay="0" className="BigViewLandingPage-Section7-Button">
+                        <button data-aos="fade-left" data-aos-delay="0" className="BigViewLandingPage-Section7-Button">
                             Learn More
                         </button>
                     </Link>
