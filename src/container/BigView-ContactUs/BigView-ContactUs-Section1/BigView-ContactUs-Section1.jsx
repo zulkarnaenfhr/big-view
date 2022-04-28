@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import emailjs from "@emailjs/browser";
-import Swal from "sweetalert2";
 import "./BigView-ContactUs-Section1.css";
-import { Link } from "react-router-dom";
 
 class BigviewContactusSection1 extends Component {
     render() {
