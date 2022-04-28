@@ -2,43 +2,9 @@ import React, { Component } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import "./BigView-ContactUs-Section1.css";
+import { Link } from "react-router-dom";
 
 class BigviewContactusSection1 extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            emailBody: {
-                name: "",
-                email: "",
-                phoneNumber: "",
-                message: "",
-            },
-        };
-        this.sendEmail = this.sendEmail.bind(this);
-    }
-
-    sendEmail = async (e) => {
-        e.preventDefault();
-
-        await emailjs.sendForm(`${process.env.REACT_APP_SERVICE_ID}`, `${process.env.REACT_APP_TEMPLATE_ID}`, e.target, `${process.env.REACT_APP_USER_ID}`).then(
-            (result) => {
-                console.log(result.text);
-            },
-            (error) => {
-                console.log(error.text);
-            }
-        );
-
-        await e.target.reset();
-        await Swal.fire({
-            icon: "success",
-            title: "<strong>Pesan Terkirim!</strong>",
-            footer: "<p>Tunggu Response 1 hingga 4 hari kerja</p>",
-            timer: "3000",
-        });
-    };
-
     render() {
         return (
             <div id="BigView-ContactUs-Section1">
@@ -48,26 +14,22 @@ class BigviewContactusSection1 extends Component {
                         <p className="BigView-ContactUs-Section1-Desc">We are happy to answer your question</p>
                     </div>
                     <div className="col-7" data-aos="fade-up" data-aos-offset="200" data-aos-delay="500">
-                        <form action="" className="BigView-ContactUs-Section1-Form-Container" onSubmit={this.sendEmail}>
-                            {/* <label htmlFor="">Subject</label>
-                            <br />
-                            <input className="container" placeholder="Your email subject" type="text" name="Name" id="" />
-                            <br /> */}
+                        <form action="mailto:someone@example.com" method="post" encType="text/plain" className="BigView-ContactUs-Section1-Form-Container">
                             <label htmlFor="">Name</label>
                             <br />
-                            <input className="container" placeholder="Your name" type="text" name="Name" id="" />
+                            <input className="container" placeholder="Your name" type="text" name="na1me" />
                             <br />
                             <label htmlFor="">Email</label>
                             <br />
-                            <input className="container" placeholder="youremail@example.com" type="text" name="Email" id="" />
+                            <input className="container" placeholder="youremail@example.com" type="text" name="Email" />
                             <br />
                             <label htmlFor="">Phone number</label>
                             <br />
-                            <input className="container" placeholder="08123456789" type="text" name="PhoneNumber" id="" />
+                            <input className="container" placeholder="08123567841" type="text" name="Phone Number" />
                             <br />
                             <label htmlFor="">Message</label>
                             <br />
-                            <textarea className="container" placeholder="Message" name="Message" id="" cols="30" rows="10"></textarea>
+                            <textarea className="container" placeholder="Message" type="text" name="Phone Number" cols="30" rows="10" />
                             <button type="submit">Submit</button>
                         </form>
                     </div>{" "}
