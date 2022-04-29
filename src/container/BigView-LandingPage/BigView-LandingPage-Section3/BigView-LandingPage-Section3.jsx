@@ -16,6 +16,7 @@ class BigviewLandingpageSection3 extends Component {
                         title1={"Executive"}
                         title2={"Dashboard"}
                         srcVector={require("../../../src/Big-View/BigView-LandingPage/Section3-ExecutiveDashboard.webp")}
+                        alt={"image-executive-dashboard"}
                         width={"84px"}
                         height={"75px"}
                         marginTop={"78px"}
@@ -26,6 +27,7 @@ class BigviewLandingpageSection3 extends Component {
                         title1={"Monitoring"}
                         title2={"Performansi"}
                         srcVector={require("../../../src/Big-View/BigView-LandingPage/Section3-MonitoringPerformansi.webp")}
+                        alt={"image-monitoring-performance"}
                         width={"92px"}
                         height={"64px"}
                         marginTop={"83px"}
@@ -36,6 +38,7 @@ class BigviewLandingpageSection3 extends Component {
                         title1={"Integrasi"}
                         title2={"Data"}
                         srcVector={require("../../../src/Big-View/BigView-LandingPage/Section3-IntegrasiData.webp")}
+                        alt={"image-integrasi-data"}
                         width={"84px"}
                         height={"84px"}
                         marginTop={"68px"}
@@ -46,6 +49,7 @@ class BigviewLandingpageSection3 extends Component {
                         title1={"Big Data"}
                         title2={"Analytics"}
                         srcVector={require("../../../src/Big-View/BigView-LandingPage/Section3-BigDataAnalytic.webp")}
+                        alt={"image-big-data-analytic"}
                         width={"100px"}
                         height={"79px"}
                         marginTop={"67px"}

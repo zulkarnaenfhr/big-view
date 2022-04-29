@@ -7,6 +7,7 @@ const CardLandingPageSection3Vector = styled.img`
     height: ${(props) => props.height};
     margin-top: ${(props) => props.marginTop};
     margin-left: ${(props) => props.marginLeft};
+    alt: ${(props) => props.alt};
 `;
 
 class Cardbigviewlandingpagesection3 extends Component {
@@ -14,7 +15,7 @@ class Cardbigviewlandingpagesection3 extends Component {
         return (
             <div id="CardBigViewLandingpageSection3">
                 <div className="CardBigViewLandingpageSection3-Container">
-                    <CardLandingPageSection3Vector src={this.props.srcVector} width={this.props.width} height={this.props.height} marginTop={this.props.marginTop} marginLeft={this.props.marginLeft} />
+                    <CardLandingPageSection3Vector src={this.props.srcVector} width={this.props.width} height={this.props.height} marginTop={this.props.marginTop} marginLeft={this.props.marginLeft} alt={this.props.alt} />
                 </div>
                 <h1 className="CardBigViewLandingpageSection3-Title">
                     {this.props.title1} <br />
