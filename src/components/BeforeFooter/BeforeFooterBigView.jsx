@@ -5,7 +5,7 @@ class Beforefooterbigview extends Component {
     render() {
         return (
             <div id="BeforeFooterBigView">
-                <img className="BeforeFooterBigView-SPL-Logo" data-aos="fade-up" data-aos-offset="0" src={require("../../src/Big-View/BigViewLogo.png")} alt="Logo-Navbar" border="0"></img>
+                <img className="BeforeFooterBigView-SPL-Logo" data-aos="fade-up" data-aos-offset="0" src={require("../../src/Big-View/BigViewLogo.webp")} alt="Logo-Navbar" border="0"></img>
                 <div className="row BeforeFooterBigView-Content-Container">
                     <div className="col-4 BeforeFooterBigView-Content-Left">
                         <div>
@@ -40,7 +40,7 @@ class Beforefooterbigview extends Component {
                             </p>
                         </div>
                     </div>
-                    <img data-aos="fade-up" data-aos-offset="0" className="BeforeFooterBigView-SPL-RightMid" src={require("../../src/Big-View/BigViewLogo Right.png")} alt="" />
+                    <img data-aos="fade-up" data-aos-offset="0" className="BeforeFooterBigView-SPL-RightMid" src={require("../../src/Big-View/BigViewLogo Right.webp")} alt="" />
                 </div>
             </div>
         );

@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./BigView-LandingPage-Section4.css";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 class BigviewLandingpageSection4 extends Component {
     render() {
         return (
             <div id="BigViewLandingPage-Section4">
                 <div className="BigViewLandingPage-Section4-Background-Container" data-aos="fade-right" data-aos-delay="0">
-                    <img className="BigViewLandingPage-Section4-Background" src={require("../../../src/Big-View/BigView-LandingPage/Section4-Background.png")} alt="" />
+                    <LazyLoadImage className="BigViewLandingPage-Section4-Background" src={require("../../../src/Big-View/BigView-LandingPage/Section4-Background.webp")} alt="" />
                 </div>
                 <div className="BigViewLandingPage-Section4-Text-Container">
                     <h1 className="BigViewLandingPage-Section4-Title" data-aos="fade-left" data-aos-delay="100">

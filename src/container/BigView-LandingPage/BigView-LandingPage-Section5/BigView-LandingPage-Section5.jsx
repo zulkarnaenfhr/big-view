@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./BigView-LandingPage-Section5.css";
 import Carousel from "react-elastic-carousel";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -48,37 +50,37 @@ class BigviewLandingpageSection5 extends Component {
                         }}
                     >
                         <div className="BigViewLandingPage-Section5-Card-Side" style={this.state.position === 0 ? { transform: "scale(1.3)", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.1)" } : { transform: "scale(1)", boxShadow: "none" }}>
-                            <img src={require("../../../src/Big-View/BigView-LandingPage/Section5-Info Daerah.png")} alt="" />
+                            <LazyLoadImage src={require("../../../src/Big-View/BigView-LandingPage/Section5-Info Daerah.webp")} alt="" />
                             <h4>Info Daerah</h4>
                             <p>Menampilkan informasi mengenai daerah, kepala daerah, dan visi misi daerah</p>
                         </div>
                         <div className="BigViewLandingPage-Section5-Card-Side" style={this.state.position === 1 ? { transform: "scale(1.3)", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.1)" } : { transform: "scale(1)", boxShadow: "none" }}>
-                            <img src={require("../../../src/Big-View/BigView-LandingPage/Section5-Potensi Daerah.png")} alt="" />
+                            <LazyLoadImage src={require("../../../src/Big-View/BigView-LandingPage/Section5-Potensi Daerah.webp")} alt="" />
                             <h4>Potensi Daerah</h4>
                             <p>Menampilkan potensi daerah dari sudut pandang Ekonomi & Sumber Daya Alam (SDA), Demografi, dan dari sisi Perdagangan Antar Wilayah</p>
                         </div>
                         <div className="BigViewLandingPage-Section5-Card-Side" style={this.state.position === 2 ? { transform: "scale(1.3)", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.1)" } : { transform: "scale(1)", boxShadow: "none" }}>
-                            <img src={require("../../../src/Big-View/BigView-LandingPage/Section5-Sektor Prioritas.png")} alt="" />
+                            <LazyLoadImage src={require("../../../src/Big-View/BigView-LandingPage/Section5-Sektor Prioritas.webp")} alt="" />
                             <h4>Sektor Prioritas</h4>
                             <p>Menampilkan informasi tentang Data Indeks Kinerja Unit untuk masing-masing sektor pilihan seperti Sektor Pendidikan, Sektor Pertanian, dan Sektor UMKM</p>
                         </div>
                         <div className="BigViewLandingPage-Section5-Card-Side" style={this.state.position === 3 ? { transform: "scale(1.3)", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.1)" } : { transform: "scale(1)", boxShadow: "none" }}>
-                            <img src={require("../../../src/Big-View/BigView-LandingPage/Section5-Social Media Analytics.png")} alt="" />
+                            <LazyLoadImage src={require("../../../src/Big-View/BigView-LandingPage/Section5-Social Media Analytics.webp")} alt="" />
                             <h4>Social Media Analytics</h4>
                             <p>Menampilkan informasi social media analytics (Twitter, Facebook, dan Instagram) untuk daerah berdasarkan keyword sesuai daerah tersebut</p>
                         </div>
                         <div className="BigViewLandingPage-Section5-Card-Side" style={this.state.position === 4 ? { transform: "scale(1.3)", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.1)" } : { transform: "scale(1)", boxShadow: "none" }}>
-                            <img src={require("../../../src/Big-View/BigView-LandingPage/Section5-Digital Media Analytics.png")} alt="" />
+                            <LazyLoadImage src={require("../../../src/Big-View/BigView-LandingPage/Section5-Digital Media Analytics.webp")} alt="" />
                             <h4>Digital Media Analytics</h4>
                             <p>Menampilkan informasi digital media analytics (News, Youtube, Forums, dan Blogs) untuk daerah berdasarkan keyword sesuai daerah tersebut</p>
                         </div>
                         <div className="BigViewLandingPage-Section5-Card-Side" style={this.state.position === 5 ? { transform: "scale(1.3)", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.1)" } : { transform: "scale(1)", boxShadow: "none" }}>
-                            <img src={require("../../../src/Big-View/BigView-LandingPage/Section5-Info Daerah.png")} alt="" />
+                            <LazyLoadImage src={require("../../../src/Big-View/BigView-LandingPage/Section5-Info Daerah.webp")} alt="" />
                             <h4>Info Daerah</h4>
                             <p>Menampilkan informasi mengenai daerah, kepala daerah, dan visi misi daerah</p>
                         </div>
                         <div className="BigViewLandingPage-Section5-Card-Side" style={this.state.position === 6 ? { transform: "scale(1.3)", boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.1)" } : { transform: "scale(1)", boxShadow: "none" }}>
-                            <img src={require("../../../src/Big-View/BigView-LandingPage/Section5-Potensi Daerah.png")} alt="" />
+                            <LazyLoadImage src={require("../../../src/Big-View/BigView-LandingPage/Section5-Potensi Daerah.webp")} alt="" />
                             <h4>Potensi Daerah</h4>
                             <p>Menampilkan potensi daerah dari sudut pandang Ekonomi & Sumber Daya Alam (SDA), Demografi, dan dari sisi Perdagangan Antar Wilayah</p>
                         </div>

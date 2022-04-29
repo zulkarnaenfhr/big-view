@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./BigView-LandingPage-Section1.css";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 class BigviewLandingpageSection1 extends Component {
     render() {
@@ -8,8 +10,8 @@ class BigviewLandingpageSection1 extends Component {
             <div id="BigViewLandingPage-Section1">
                 <div className="BigViewLandingPage-Section1-Parent-Container">
                     <div className="BigViewLandingPage-Background-Container">
-                        <img className="BigViewLandingPage-Section1-Background1" data-aos="fade-right" data-aos-offset="200" data-aos-delay="200" src={require("../../../src/Big-View/BigView-LandingPage/Background Section 1.png")} alt="" />
-                        <img className="BigViewLandingPage-Section1-Background2" data-aos="fade-left" data-aos-offset="200" data-aos-delay="300" src={require("../../../src/Big-View/BigView-LandingPage/Background2 Section 1.png")} alt="" />
+                        <LazyLoadImage className="BigViewLandingPage-Section1-Background1" data-aos="fade-right" data-aos-offset="200" data-aos-delay="200" src={require("../../../src/Big-View/BigView-LandingPage/Background Section 1.webp")} alt="" threshold={100} />
+                        <LazyLoadImage className="BigViewLandingPage-Section1-Background2" data-aos="fade-left" data-aos-offset="200" data-aos-delay="300" src={require("../../../src/Big-View/BigView-LandingPage/Background2 Section 1.webp")} alt="" threshold={100} />
                     </div>
                     <div className="BigViewLandingPage-Content-Container">
                         <h1 className="BigViewLandingPage-Section1-Title" data-aos="fade-down-right" data-aos-offset="200" data-aos-delay="300">

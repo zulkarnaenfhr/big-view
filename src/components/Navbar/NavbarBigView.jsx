@@ -34,7 +34,7 @@ class Navbarbigview extends Component {
                                 pathname: "/big-view",
                             }}
                         >
-                            <img className="bigViewNavbarLogo" src={require("../../src/Big-View/BigViewLogoScroll.png")} alt="" />{" "}
+                            <img className="bigViewNavbarLogo" src={require("../../src/Big-View/BigViewLogoScroll.webp")} alt="" />{" "}
                         </Link>
                     ) : (
                         <Link
@@ -43,7 +43,7 @@ class Navbarbigview extends Component {
                                 pathname: "/big-view",
                             }}
                         >
-                            <img className="bigViewNavbarLogo" src={require("../../src/Big-View/BigViewLogo.png")} alt="" />{" "}
+                            <img className="bigViewNavbarLogo" src={require("../../src/Big-View/BigViewLogo.webp")} alt="" />{" "}
                         </Link>
                     )}
 

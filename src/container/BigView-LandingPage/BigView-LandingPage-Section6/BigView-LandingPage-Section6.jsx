@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./BigView-LandingPage-Section6.css";
 
+
 class BigviewLandingpageSection6 extends Component {
     render() {
         return (
